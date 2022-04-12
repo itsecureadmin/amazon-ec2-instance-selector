@@ -174,7 +174,6 @@ params=(
 echo "${expected[*]}" | execute_test "FPGAs" "${params[@]}"
 
 
-
 if [[ -f "${TEST_FAILURES_LOG}" ]]; then
     echo -e "\n\n\n=========================== FAILURE SUMMARY ===========================\n"
     cat "${TEST_FAILURES_LOG}"
