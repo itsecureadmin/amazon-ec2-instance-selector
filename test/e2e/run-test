@@ -180,3 +180,4 @@ if [[ -f "${TEST_FAILURES_LOG}" ]]; then
     echo -e "\n========================= END FAILURE SUMMARY ========================="
     exit 1
 fi
+
